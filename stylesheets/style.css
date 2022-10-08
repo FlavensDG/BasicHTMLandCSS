@@ -1,0 +1,351 @@
+html{
+
+    scroll-behavior: smooth;
+}
+
+.headerBG{
+
+    position: absolute;
+    width: 100%;
+    height: 188px;
+    left: 0%;
+    top: 0%;
+
+    background: #100B0B;
+    border-bottom: 7px solid #EEE733;
+}
+
+.topLeftLogo img{
+
+    position: absolute;
+    left: 2%;
+    top: 16%;
+    width: 123px;
+    height: 123px;
+}
+
+.headerText{
+
+    position: absolute;
+    left: 10%;
+    top: 22%;
+}
+
+.HH1{
+
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+
+    color: #FFFFFF;
+    
+}
+
+.HH2{
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+
+    color: #FFFFFF;
+
+}
+
+.menu li{
+
+    list-style-type: none;
+    float: right;
+    position: relative;
+    padding: 1%;
+}
+
+.menu{
+
+    position: relative;
+    right: 1%;
+    top: 15%;
+}
+
+button{
+
+    border: none;
+    background: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0.8em;
+
+    color: #FFFFFF;
+}
+
+button:hover{
+
+    background: #EEE733;
+    color: #100B0B;
+    border-radius: 10em;
+}
+
+.AboutMe{
+
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/mainBG.jpg) no-repeat center;
+    left: 0px;
+    right: 0px;
+    max-width: 120%;
+    max-height: 100%;
+    background-size: cover;
+    position: absolute;
+    margin-top: 11.6em;
+    background-attachment: fixed;
+}
+
+.picture img{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 17%;
+    left: 12%;
+    width: 440px;
+    height: 440px;
+
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.name{
+
+    position: absolute;
+    left: 39%;
+    top: 17%;
+    width: 1000px;
+    height: 117px;
+
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+
+    color: black;
+}
+
+.course{
+
+    position: absolute;
+    left: 39%;
+    top: 24%;
+    width: 750px;
+    height: 117px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+
+    color: black;
+}
+
+.description{
+
+    position: absolute;
+    left: 39%;
+    top: 30%;
+    width: 880px;
+    height: 117px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+
+    color: black;
+
+}
+
+.back-button{
+    position: fixed;
+    bottom: 6%;
+    right: 3%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    border: none;
+    color: black;
+    font-weight: 700;
+    background: white;
+    float: right;
+}
+
+.FavoriteMovies{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/secBG.jpg) no-repeat center;
+    left: 0px;
+    right: 0px;
+    top: 100%;
+    max-width: 120%;
+    max-height: 100%;
+    background-size: cover;
+    position: absolute;
+    background-attachment: fixed;
+}
+
+
+
+.Flipped img{
+
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    left: 4%;
+    bottom: 0.5%;
+    top: 0.6%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 6.5% 5% 25% 5%;
+}
+
+.Flipped dt{
+
+    position: absolute;
+    left: 13.9%;
+    top: 5.5%;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 20%;
+    text-align: justify;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.Flipped dd{
+    
+    position: absolute;
+    left: 5%;
+    top: 58%;
+    font-size: 18px;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.CaptainAmerica img{
+
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    left: 36.8%;
+    bottom: 0.5%;
+    top: 0.6%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 6.5% 5% 25% 5%;
+}
+
+.CaptainAmerica dt{
+
+    position: absolute;
+    left: 39.8%;
+    top: 3.8%;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.CaptainAmerica dd{
+    
+    position: absolute;
+    left: 37.6%;
+    top: 58%;
+    font-size: 18px;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.Titanic img{
+
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    left: 69.5%;
+    bottom: 0.5%;
+    top: 0.6%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 6.5% 5% 25% 5%;
+}
+
+.Titanic dt{
+
+    position: absolute;
+    left: 72.5%;
+    top: 3.8%;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.Titanic dd{
+    
+    position: absolute;
+    left: 70.4%;
+    top: 58%;
+    font-size: 18px;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.WhyThisCourse{
+
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/thiBG.jpg) no-repeat center;
+    left: 0px;
+    top: 181%;
+    right: 0px;
+    max-width: 120%;
+    max-height: 100%;
+    background-size: cover;
+    position: absolute;
+    margin-top: 11.6em;
+    background-attachment: fixed;
+}
+
+.text1{
+
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    width: 700px;
+    left: 28%;
+    top: 16%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5% 0% 25% 8%;
+}
+
+.text2{
+
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: white;
+    text-align: justify;
+    width: 600px;
+    position: absolute;
+    left: 35%;
+    top: 42%
+
+}

@@ -1,0 +1,12 @@
+.AboutMePage{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../BasicHTMLandCSS//images/secondBG.jpg") no-repeat center;
+    left: 0px;
+    right: 0px;
+    max-width: 120%;
+    max-height: 100%;
+    background-size: cover;
+    position: absolute;
+    background-attachment: fixed;
+}
